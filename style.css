@@ -238,3 +238,19 @@ body {
     outline: none;
     border-color: var(--accent);
 }
+
+@media (max-width: 768px) {
+  /* This changes your hero section to stack vertically on phones */
+  .hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* This centers your image and removes the 'float' */
+  .hero img {
+    float: none;
+    margin: 0 auto 20px auto;
+    display: block;
+  }
+}
